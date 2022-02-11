@@ -10,6 +10,13 @@ const facilities = JSON.parse(
 app.get('/api/v1/services/:id', (req, res) => {
   const id = req.params.id;
   const facility = facilities.find(el => el._id === id);
+
+  if (!facility) {
+    return res.status(404).json({
+      status: 'fail',
+      message: 'Invalid ID',
+    });
+  }
   res.status(200).json({
     status: 'success',
     data: {
