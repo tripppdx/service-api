@@ -1,0 +1,74 @@
+[
+  {
+    "_id": "1",
+    "facilityName": "Toyota of Avalon",
+    "services": [
+      {
+        "service": "Tire Rotation",
+        "durationHours": 2,
+        "price": [
+          {
+            "amount": 100,
+            "currency": "USD"
+          }
+        ]
+      },
+      {
+        "service": "Clutch Replacement",
+        "durationHours": 6,
+        "price": [
+          {
+            "amount": 1480,
+            "currency": "USD"
+          }
+        ],
+        "makesExcluded": ["Maserati"],
+        "mileageRestriction": 200000
+      },
+      {
+        "service": "Body Work",
+        "durationHours": 8,
+        "price": [
+          {
+            "amount": 2000,
+            "currency": "USD"
+          }
+        ],
+        "makesExcluded": ["Hummer"]
+      },
+      {
+        "service": "Oil Change",
+        "durationHours": 1,
+        "price": [
+          {
+            "amount": 50,
+            "currency": "USD",
+            "type": "Normal"
+          },
+          {
+            "amount": 39.99,
+            "currency": "USD",
+            "type": "with coupon"
+          },
+          {
+            "amount": 75,
+            "currency": "USD",
+            "type": "Synthetic"
+          }
+        ],
+        "makesExcluded": ["Tesla"]
+      },
+      {
+        "service": "Brake Replacement",
+        "durationHours": 2.5,
+        "price": [
+          {
+            "amount": 250,
+            "currency": "USD"
+          }
+        ],
+        "makesExcluded": ["Maserati", "Mercedes", "Saturn"]
+      }
+    ]
+  }
+]
