@@ -1,10 +1,10 @@
 [
   {
-    "_id": "1",
+    "id": 0,
     "facilityName": "Toyota of Avalon",
     "services": [
       {
-        "service": "Tire Rotation",
+        "serviceType": "Tire Rotation",
         "durationHours": 2,
         "price": [
           {
@@ -14,7 +14,7 @@
         ]
       },
       {
-        "service": "Clutch Replacement",
+        "serviceType": "Clutch Replacement",
         "durationHours": 6,
         "price": [
           {
@@ -26,7 +26,7 @@
         "mileageRestriction": 200000
       },
       {
-        "service": "Body Work",
+        "serviceType": "Body Work",
         "durationHours": 8,
         "price": [
           {
@@ -37,7 +37,7 @@
         "makesExcluded": ["Hummer"]
       },
       {
-        "service": "Oil Change",
+        "serviceType": "Oil Change",
         "durationHours": 1,
         "price": [
           {
@@ -59,7 +59,7 @@
         "makesExcluded": ["Tesla"]
       },
       {
-        "service": "Brake Replacement",
+        "serviceType": "Brake Replacement",
         "durationHours": 2.5,
         "price": [
           {
